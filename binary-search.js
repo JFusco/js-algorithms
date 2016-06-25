@@ -1,10 +1,7 @@
 'use strict';
 
 export const binarySearch = (array, targetValue) => {
-	let min = 0,
-		max = array.length - 1,
-		guess,
-		guesses = 0;
+	let min = 0, max = array.length - 1, guess, guesses = 0;
 
 	while(max >= min){
 		guess = Math.floor((max + min) / 2);
